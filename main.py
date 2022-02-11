@@ -1,4 +1,3 @@
-# All media file is available for download as a zip file
 import numpy as np
 import os
 import tkinter 
@@ -9,6 +8,7 @@ import threading
 import time
 import imutils # pip install imutils
 
+#Take live video 
 stream = cv2.VideoCapture("video.avi")
 
 filename = 'video.avi'
